@@ -1,0 +1,21 @@
+{
+  "name": "@andreiwebdev/ogooga-cli",
+  "version": "1.0.0",
+  "main": "cli.mjs",
+  "bin": {
+    "og": "./cli.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andreiwebdev/ogooga-cli"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "author": "Andrei Dragomir",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0"
+  }
+}
