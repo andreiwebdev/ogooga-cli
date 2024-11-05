@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "main": "cli.mjs",
   "bin": {
-    "og": "./cli.mjs"
+    "og": "cli.mjs"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/andreiwebdev/ogooga-cli"
+    "url": "git+https://github.com/andreiwebdev/ogooga-cli.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
